@@ -1,0 +1,21 @@
+/* Estilo para las imágenes de las canchas */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta la altura a tu preferencia */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin recortarla ni hacer zoom */
+    object-position: center; /* Centra la imagen dentro del espacio */
+    border-radius: 5px; /* Redondea los bordes de la imagen (opcional) */
+}
+
+/* Estilo para el contenedor de la tarjeta */
+.card {
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Asegurarse de que las imágenes no se estiren */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
